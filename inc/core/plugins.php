@@ -44,7 +44,7 @@ function headlesspress_register_required_plugins() {
 		array(
 			'name'      => 'Yoast SEO API Output',
 			'slug'      => 'wp-api-yoast-meta',
-      'source'    => 'https://github.com/headless-wordpress/wp-api-yoast-meta/archive/master.zip',
+      'source'    => 'https://github.com/headlesspress/wp-api-yoast-meta/archive/master.zip',
       'required'  => true,
     ),
     
