@@ -1,7 +1,7 @@
 <?php
 /**
  * Insert Categories & Tags Automatically.
- * @package  Headless_WP
+ * @package  HeadlessPress
  */
 
 function hp_filter_categories($data, $post, $request){

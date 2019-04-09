@@ -1,6 +1,6 @@
 <?php
 
-function pt_register_projects() {
+function hp_pt_register_projects() {
 
 	/**
 	 * Post Type: Projects.
@@ -48,6 +48,6 @@ function pt_register_projects() {
 	register_post_type( "project", $args );
 }
 
-add_action( 'init', 'pt_register_projects' );
+add_action( 'init', 'hp_pt_register_projects' );
 
 

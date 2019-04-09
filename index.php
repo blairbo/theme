@@ -2,7 +2,7 @@
 /**
  * Redirect frontend requests to REST API.
  *
- * @package  Headless_WP
+ * @package  HeadlessPress
  */
 
 // Redirect individual posts to the REST API endpoint.

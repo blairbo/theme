@@ -1,14 +1,14 @@
 <?php
 /**
  * Headless WP Settings Page.
- * @package  Headless_WP
+ * @package  HeadlessPress
  */
 require_once get_template_directory() . '/libs/options/class-options-page.php';
 
 $pages = array(
 	'headless-settings'	=> array(
 		'parent_slug'	=> 'options-general.php',
-		'page_title'	=> __( 'Headless Settings', 'headlesspress' ),
+		'page_title'	=> __( 'Headlesspress', 'headlesspress' ),
 		'sections'		=> array(
 			'headless-section-filters'	=> array(
 				'title'			=> __( 'Filter Settings', 'headlesspress' ),

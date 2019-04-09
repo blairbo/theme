@@ -2,7 +2,7 @@
 /**
  * REST API CORS filter.
  *
- * @package  Headless_WP
+ * @package  HeadlessPress
  */
 add_action(
 	'rest_api_init',

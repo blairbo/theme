@@ -1,8 +1,8 @@
 <?php
 /**
- * Headless WP Boiler Theme.
+ * HeadlessPress Theme.
  *
- * @package  Headless_WP
+ * @package  HeadlessPress
  */
 
 //** Core Config */

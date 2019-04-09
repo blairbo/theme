@@ -1,7 +1,7 @@
 <?php
 /**
  * Generate thumbnail keys automatically for all Post Types.
- * @package  Headless_WP
+ * @package  HeadlessPress
  */
 
 function hp_filter_author($data, $post, $request){

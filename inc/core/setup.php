@@ -2,7 +2,7 @@
 /**
  * Base Setup.
  *
- * @package  Headless_WP
+ * @package  HeadlessPress
  */
 
 // Thumbnail Support

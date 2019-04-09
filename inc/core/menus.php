@@ -2,7 +2,7 @@
 /**
  * Register Menus.
  *
- * @package  Headless_WP
+ * @package  HeadlessPress
  */
 
 /**

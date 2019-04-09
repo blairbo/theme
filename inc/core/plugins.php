@@ -2,7 +2,7 @@
 /**
  * Get Required plugins for Headless WP.
  *
- * @package  Headless_WP
+ * @package  HeadlessPress
  */
 
 require_once get_template_directory() . '/libs/tgm/class-tgm-plugin-activation.php';
