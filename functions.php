@@ -14,6 +14,7 @@ require_once 'inc/core/plugins.php';
 
 //** API */
 require_once 'inc/api/cors.php';
+require_once 'inc/api/cf7.php';
 
 //** Post Types */
 foreach(glob(get_template_directory() . "/post-types/*.php") as $post_type){
