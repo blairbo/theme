@@ -12,7 +12,7 @@ $pages = array(
 		'sections'		=> array(
 			'headless-section-filters'	=> array(
 				'title'			=> __( 'Filter Settings', 'headlesspress' ),
-				'text'			=> '<p>' . __( 'Toggle filter options.', 'headlesspress' ) . '</p>',
+				'text'			=> '<p>' . __( 'HeadlessPress comes with a few inbuilt filters to help you get useful data easier.', 'headlesspress' ) . '</p>',
 				'fields'		=> array(
 					'headless-setting-author'		=> array(
 						'id'        => __( 'headless-setting-author', 'headlesspress' ),
@@ -41,17 +41,6 @@ $pages = array(
 						'type'			=> 'checkbox',
 						'checked'   => false,
 						'text'			=> __( 'Optimize ACF fields (recommended when using Gatsby & Gridsome).' ),
-					),
-				),
-			),
-			'headless-section-cors'	=> array(
-				'title'			=> __( 'CORS Settings', 'headlesspress' ),
-				'text'			=> '<p>' . __( 'Configure CORS (Cross-Origin Resource Sharing). <br/> You can find out more information about CORS can be found <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS" target="_blank">here</a>.', 'headlesspress' ) . '</p>',
-				'fields'		=> array(
-					'headless-setting-cors-responses'		=> array(
-						'id'        => __( 'headless-setting-cors-responses', 'headlesspress' ),
-						'title'			=> __( 'Allowed response types', 'headlesspress' ),
-						'text'			=> __( 'Comma seperated response types. e.g. POST, PUT, PATCH, DELETE. <br/>The <strong>GET</strong> response type is always set.' ),
 					),
 				),
 			),

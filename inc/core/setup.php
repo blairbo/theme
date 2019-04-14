@@ -5,6 +5,9 @@
  * @package  HeadlessPress
  */
 
+
+// require_once get_template_directory() . '/inc/functions/build-hooks.php';
+
 // Thumbnail Support
 add_theme_support( 'post-thumbnails' );
 
